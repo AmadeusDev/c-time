@@ -1,0 +1,24 @@
+// retez.cpp
+// 16.10.2013
+// zjisteni delky retezce
+
+#include <iostream>
+using namespace std;
+
+
+
+// napište funkci delka, ktera vraci delku retezce jako cislo typu int.
+// funkce si prebira jako parametr ukazatel na retezec
+
+
+int main()
+{
+	char znak[80] = "Ahoj lidi, co delate?";	// inicializace retezce
+	char *ukznak = znak;					// uloz adresu bufferu
+	
+	int delkaret = delka(ukznak);	// zjisteni delky retezce
+	cout << "Delka retezce je: " << delkaret << " znaku." << endl;
+
+	system ("pause");
+	return 0;
+}

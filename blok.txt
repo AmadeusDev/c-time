@@ -1,0 +1,5 @@
+Novák,Jan,1954,Uherský Brod
+Blažková,Terezie,1976,Nivnice
+Dobrák,Jozef,1985,Havøice
+Novota,Václav,2001,Prakšice
+Donutil,Miroslav,1954,Brno
